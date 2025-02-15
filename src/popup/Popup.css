@@ -1,0 +1,41 @@
+.popup-container {
+    width: 300px;
+    padding: 20px;
+    background: linear-gradient(135deg, #e3f2fd, #f1f8e9);
+    font-family: "Poppins", sans-serif;
+    border: 2px solid rgb(54, 191, 219);
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .popup-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background: linear-gradient(135deg, #007aff, #0351a4);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #0351a4, #007aff);
+    transform: scale(1.05);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
