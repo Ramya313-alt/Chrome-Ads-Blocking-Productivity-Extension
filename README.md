@@ -5,23 +5,28 @@ This is a Chrome Extension built using **React.js** and **Vite**.
  Chrome Extension for Productivity & Browsing Enhancement
 
  ## Features
-## 1.Ad Blocker with Custom Filters
-Users can enter custom rules for blocking ads.
-Uses Chrome WebRequest API to intercept and block network requests.
-Filters can be stored locally using Chrome Storage API.
+## 1.Ad Blocker
+Automatically removes ads from web pages.
+Tracks the number of ads blocked.
 ## 2️ Productivity Tracker
-Tracks time spent on different websites.
-Stores data using Chrome Storage API.
+Monitors the time spent on different websites.
+Displays a breakdown of time spent per site in the popup.
 
 ## 3️ Smart Note-Taking Tool
 Two types of notes:
 Local URL-based Notes (specific to the current page).
 Global Notes (accessible anywhere).
-Uses Chrome Storage API for persistence.
-## 4️ Tab Manager
-Automatically groups tabs based on categories (e.g., social media, work, entertainment).
-Uses Chrome Tabs API to manage open tabs.
 
+## 4️ Tab Manager
+Groups open tabs into categories based on their content:
+
+Social Media: Facebook, Twitter, etc.
+
+Work: GitHub, Notion, etc.
+
+Miscellaneous: Other tabs.
+
+Automatically organizes similar tabs into groups for better workflow
 # SetUp Vite+React
 npm create vite@latest chrome-adExtension
 cd chrome-adExtension
